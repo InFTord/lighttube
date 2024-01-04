@@ -21,8 +21,6 @@ jobs:
           - linux-arm
           - linux-arm64
           - osx-x64
-          - osx.11.0-arm64
-
     if: |
       !contains(github.event.head_commit.message, 'skip ci')
 
